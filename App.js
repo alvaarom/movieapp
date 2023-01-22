@@ -1,5 +1,5 @@
 import React, {useMemo, useState} from 'react';
-import {StatusBar} from 'react-native';
+import {StatusBar, YellowBox} from 'react-native';
 import {StyleSheet} from 'react-native';
 import {
   NavigationContainer,
