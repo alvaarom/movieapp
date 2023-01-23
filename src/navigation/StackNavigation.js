@@ -90,7 +90,11 @@ export default function StackNavigation(props) {
       <Stack.Screen
         name="Search"
         component={Search}
-        options={{title: '', headerLeft: () => buttonLeft('Search')}}
+        options={{
+          title: '',
+          headerTransparent: true,
+          headerLeft: () => buttonLeft('Search'),
+        }}
       />
     </Stack.Navigator>
   );
