@@ -9,7 +9,6 @@ export default function ModalVideo(props) {
   const {show, setShow, idMovie} = props;
   const [video, setVideo] = useState(null);
 
-  console.log(video);
   useEffect(() => {
     getVideoMovieApi(idMovie).then(res => {
       let idVideo = '';
